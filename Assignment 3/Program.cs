@@ -8,10 +8,15 @@ namespace Assignment_3
         {
             Console.WriteLine("Hello from Alex");
         }
+        static void HelloFromNeeraj()
+        {
+            Console.WriteLine("Hello from Neeraj");
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             HelloFromAlex();
+            HelloFromNeeraj();
         }
     }
 }
