@@ -12,11 +12,16 @@ namespace Assignment_3
         {
             Console.WriteLine("Hello from Neeraj");
         }
+        static void HelloFromSarah()
+        {
+            Console.WriteLine("Hello from Sarah");
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             HelloFromAlex();
             HelloFromNeeraj();
+            HelloFromSarah();
         }
     }
 }
